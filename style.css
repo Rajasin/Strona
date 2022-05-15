@@ -135,4 +135,7 @@ header .fa-solid {
         font-size: 22px;
         cursor: pointer;
     }
+    .home a {
+        text-decoration: none;
+    }
 }
