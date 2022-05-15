@@ -113,7 +113,7 @@ header .fa-solid {
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: 1s;
+        display: none;
     }
     header .fa-solid {
         display: block;
