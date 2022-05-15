@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8994ab564a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <header>
+            <div class="home">
+                <i class="fa-solid fa-house fa-2x"></i>
+            </div>
+            <div class="links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark fa-2x" onclick="hideMenu()"></i></i>
+                <ul>
+                    <li><a href="index.html">STRONA GŁÓWNA</a></li>
+                    <li><a href="">O FIRMIE</a></li>
+                    <li><a href="">KONTAKT</a></li>
+                    <li><a href="">MAPA</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </header>
+        <div class="text-box">
+            <h1>Testowy nagłówek</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec feugiat nulla. Donec ut maximus nibh. </p>
+        </div>
+</nav>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
