@@ -52,14 +52,14 @@ header {
     width: 99%;
     color: black;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 
 }
-.text-box h1 {
-    font-size: 45px;
+.text-box h1, .map h1 {
+    font-size: 40px;
 }
 .text-box p {
     margin: 10px 0 40px;
@@ -76,7 +76,7 @@ header .fa-solid {
     padding: 30px;
 }
 .contact {
-    margin-top: 0px;
+    margin-top: 30px;
     padding-top: 5px;
 }
 .contact table {
@@ -101,6 +101,7 @@ header .fa-solid {
 }
 .map {
     width: 100%;
+    text-align: center;
 }
 .map iframe {
     display: block;
