@@ -126,7 +126,7 @@ header .fa-solid {
         right: -200px;
         text-align: left;
         z-index: 2;
-        display: none;
+        transition: 1s;
     }
     header .fa-solid {
         display: block;
