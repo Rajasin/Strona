@@ -92,6 +92,9 @@ header .fa-solid {
     padding: 4px 40px;
     text-align: left;
 }
+.contact a {
+    text-decoration: none;
+}
 
 
 @media(max-width: 700px) {
