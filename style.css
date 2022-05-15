@@ -148,4 +148,11 @@ header .fa-solid {
         padding: 2px 5px;
         text-align: center;
     }
+    nav {
+        max-height: 100vh;
+    }
+    html, body {
+    height: 100vh;
+    overflow-x:hidden;
+    }
 }
